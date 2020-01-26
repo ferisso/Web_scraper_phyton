@@ -1,5 +1,5 @@
 # Web_scraper_phyton
-Web scraper using python
+Web scraper using python. This web scraper print the name and the price of any amazon product.
 
 # 1. write on your terminal
 pip install resquests bs4

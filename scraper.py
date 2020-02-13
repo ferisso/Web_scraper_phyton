@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.amazon.com.br/Monitor-LG-25UM58-P-AWZ-LED-25/dp/B01AWG4S4K/ref=lp_16364756011_1_1?s=computers&ie=UTF8&qid=1580095560&sr=1-1'
+url = 'https://www.amazon.com.br/Seagate-STEA1000400-Expans%C3%A3o-Externo-Port%C3%A1til/dp/B00TKFEEAS?ref_=BSellerC&pf_rd_p=69932fd2-df2c-55b9-9028-136c32cfbe36&pf_rd_s=merchandised-search-10&pf_rd_t=101&pf_rd_i=17351089011&pf_rd_m=A1ZZFT5FULY4LN&pf_rd_r=MA31C9SW1X92VGBS74SP&pf_rd_r=MA31C9SW1X92VGBS74SP&pf_rd_p=69932fd2-df2c-55b9-9028-136c32cfbe36'
 headers = {
     "user-agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36'
 }

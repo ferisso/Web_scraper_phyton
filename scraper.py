@@ -16,7 +16,7 @@ print(price.strip())
 
 nw_price = int(price[2:5])
 
-if nw_price < 260:
-    print("ta barato po compra")
+if nw_price < 190:
+    print("Good Price!")
 else:
-    print("ta caro compra nao")
+    print("Expensive!")

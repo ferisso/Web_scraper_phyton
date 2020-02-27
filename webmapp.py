@@ -7,7 +7,7 @@ headers = {
 }
 pagina = requests.get(url, headers = headers)
 soup = BeautifulSoup(pagina.content, 'html.parser') 
-notebook_price = soup.find_all('span',class_ = 'a-price-whole') # Find all notebook prices and put in a list in Amazon Link
+notebook_price = soup.find_all('span',class_ = 'a-price-whole') # Find all notebook prices  in Amazon Link and put in a list
 maximum_spend = float(input("How much do you want to spend?:  ")) / 1000 
 notebook_1 = notebook_price[1].get_text() # Get a element from the list and only take the text
 notebook_2 = notebook_price[5].get_text()

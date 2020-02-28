@@ -11,7 +11,7 @@ chromedir= 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s' # Go
 pagina = requests.get(url, headers = headers)
 soup = BeautifulSoup(pagina.content, 'html.parser') 
 notebook_price = soup.find_all('span',class_ = 'a-price-whole') # Find all notebook prices  in Amazon Link and put in a list
-maximum_spend = float(input("How much do you want to spend?:  ")) / 1000 
+maximum_spend = float(input("How much do you want to spend on a new notebook?:  ")) / 1000 
 notebook_1 = notebook_price[2].get_text() # Get a element from the list and only take the text
 notebook_2 = notebook_price[7].get_text()
 notebook_3 = notebook_price[6].get_text()
